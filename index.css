@@ -1,0 +1,121 @@
+.tendencias{
+  margin-top: 10px;
+}
+nav{
+  height: 70px;
+}
+
+.btn{
+  border-radius: 0px;
+}
+
+footer {
+    background: #343a40;
+    color: white;
+    margin-top: 10px;
+    padding-top: 10px;
+    padding-bottom: 38px;
+    border-radius: 0px;
+}
+
+
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+li{
+  display: flex;
+  align-items: center; 
+  gap: 10px;
+}
+
+span{
+    margin-top: -14px;
+}
+
+ul{
+    margin-left: -10px;
+}
+
+img{
+    height: 400px;
+
+}
+
+.mi_producto {
+   
+    box-sizing: border-box;
+    padding: 14px; 
+
+   
+}
+.productos{
+     margin-left: 5px;
+     margin-right: 2px;
+}
+
+#ima_peque{
+      margin-left: 5px;
+}
+
+body {
+
+
+            font-family: sans-serif;
+            margin: 0;
+            padding: 0px;
+        
+            /* Define la altura mínima para que el gradiente cubra toda la pantalla */
+            min-height: 100vh;
+
+            /* Color de texto claro para que sea legible sobre el fondo oscuro */
+            color: white; 
+
+            /* El gradiente */
+            background-color: #4f5862; /* Fallback para navegadores antiguos */
+
+        }
+
+
+.texto-banner {
+  width: 100%; /* Ocupa todo el ancho disponible */
+  padding: 15px 0; /* Espaciado vertical (alto de 20px aprox) */
+  margin-top: 15px;
+  background-color: #1a1a1a; 
+  text-align: center; /* Centra el texto */
+  color: #ffffff; /* Color del texto */
+}
+
+.texto-banner h2 {
+  margin: 0;
+  font-family: 'Helvetica Neue', Arial, sans-serif; /* Fuente limpia */
+  font-size: 20px;
+  font-weight: bold;
+  letter-spacing: 4px; /* Espaciado entre letras */
+  text-transform: uppercase; /* Asegura que esté en mayúsculas */
+}
+
+.navbar-custom{
+  background-color: #343a40;
+  position: relative; /* z-index necesita una posición diferente a static */
+  z-index: 1050; /* Un valor alto para asegurar que esté por encima */
+
+
+  /* Añade un poco de espaciado para que no se vea apretado */
+  /* El padding horizontal (izquierda y derecha) ayuda a alinear los enlaces
+     con el brand y el botón del navbar. */
+  padding: 1rem 1rem; 
+  
+  /* Redondea las esquinas inferiores para un look más suave */
+  border-bottom-left-radius: 0.25rem;
+  border-bottom-right-radius: 0.25rem;
+
+  
+}
+
+.texto-nav{
+  font-size: 20px;
+}
+

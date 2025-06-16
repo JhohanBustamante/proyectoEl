@@ -1,0 +1,26 @@
+.login{
+    background-color: aliceblue;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding-bottom: 25px;
+    
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #4f5862;
+  height: 100vh;
+}
+#login .container #login-column #login-box {
+ 
+  max-width: 200px;
+  height: 320px;
+  border: 1px solid #9C9C9C;
+  background-color: #EAEAEA;
+}
+
+.btn {
+  border-radius: 10px;
+}
+

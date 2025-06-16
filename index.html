@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+    integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous" />
+  <link rel="stylesheet" href="./assets/fontawesome-free-5.15.4-web/css/all.min.css" />
+  <link rel="stylesheet" href="./index.css" />
+
+  <title>3D Printer</title>
+</head>
+
+<body>
+  <!-- Optional JavaScript; choose one of the two! -->
+
+  <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct"
+    crossorigin="anonymous"></script>
+
+  <!-- Option 2: Separate Popper and Bootstrap JS -->
+  <!--
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js" integrity="sha384-+sLIOodYLS7CIrQpBjl+C7nPvqq+FbNUBDunl/OZv93DB7Ln/533i8e/mZXLi/P+" crossorigin="anonymous"></script>
+    -->
+
+  <!-- Navegación -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark shadow-sm navbar-custom ">
+    <div class="container-fluid texto-nav">
+      <a class="navbar-brand" href="index.html"> 3d Printer </a>
+
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <form class="form-inline my-2 my-lg-0 mx-auto d-none d-sm-none d-md-none d-lg-block ">
+          <input class="form-control mr-sm-2" type="search" placeholder="Buscar productos..." aria-label="Search"
+            style="width: 300px" />
+          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">
+            Buscar
+          </button>
+        </form>
+
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="/ubicacion.html">Tienda</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="mision.html">Mision</a>
+          </li>
+          <li class="nav-item">
+            <a class="btn btn-primary ml-lg-2" href="/login.html">Iniciar Sesión</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <div id="slide2" class="carousel slide d-block d-sm-block d-md-none" data-ride="carousel">
+    <ol class="carousel-indicators">
+      <li data-target="#slide2" data-slide-to="0" class="active"></li>
+      <li data-target="#slide2" data-slide-to="1"></li>
+      <li data-target="#slide2" data-slide-to="2"></li>
+    </ol>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="/assets/img/mini_banner3.png" class="d-block w-100" width="500px" height="500px" alt="..." />
+      </div>
+
+      <div class="carousel-item">
+        <img src="./assets/img/mini-banner2.png" class="d-block w-100" width="500px" height="500px" alt="..." />
+      </div>
+
+      <div class="carousel-item">
+        <img src="./assets/img/banner1.png" class="d-block w-100" width="444" height="1444" alt="..." />
+      </div>
+    </div>
+
+    <button class="carousel-control-prev" type="button" data-target="#slide2" data-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-target="#slide2" data-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </button>
+  </div>
+
+  <div id="slide1" class="carousel slide d-none d-sm-none d-md-block" data-ride="carousel">
+    <ol class="carousel-indicators">
+      <li data-target="#slide1" data-slide-to="0" class="active"></li>
+      <li data-target="#slide1" data-slide-to="1"></li>
+      <li data-target="#slide1" data-slide-to="2"></li>
+    </ol>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="/assets/img/banner4.png" class="d-block w-100" width="500px" height="1444px" alt="..." />
+      </div>
+
+      <div class="carousel-item">
+        <img src="./assets/img/OFF.png" class="d-block w-100" width="500px" height="1444px" alt="..." />
+      </div>
+
+      <div class="carousel-item">
+        <img src="./assets/img/banner1.png" class="d-block w-100" width="500px" height="1444" alt="..." />
+      </div>
+    </div>
+
+    <button class="carousel-control-prev" type="button" data-target="#slide1" data-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-target="#slide1" data-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </button>
+  </div>
+  <!-- Imagenes de productos -->
+  <div class="texto-banner">
+    <h2>CATEGORIAS</h2>
+  </div>
+  <div class="row productos">
+    <div class="col-12 col-sm-6 col-md-6 col-lg-3 col-xl-3 mi_producto">
+      <a href="./detalle_compra.html" target="_blank">
+        <div class="btn btn-primary w-100 mt-1">Universo_Marvel</div>
+      </a>
+      <img src="./assets/img/marvel.png" alt="" width="100%" />
+    </div>
+    <div class="col-12 col-sm-6 col-md-6 col-lg-3 col-xl-3 mi_producto">
+      <a href="./detalle_compra.html" target="_blank">
+        <div class="btn btn-primary w-100 mt-1">Universo_DC</div>
+      </a>
+      <img src="./assets/img/dc.png" alt="" width="100%" />
+    </div>
+    <div class="col-12 col-sm-6 col-md-6 col-lg-3 col-xl-3 mi_producto">
+      <a href="./detalle_compra.html" target="_blank">
+        <div class="btn btn-primary w-100 mt-1">Anime</div>
+      </a>
+      <img src="./assets/img/anime.png" alt="" width="100%" />
+    </div>
+    <div class="col-12 col-sm-6 col-md-6 col-lg-3 col-xl-3 mi_producto">
+      <a href="./detalle_compra.html" target="_blank">
+        <div class="btn btn-primary w-100 mt-1">Dragones</div>
+      </a>
+      <img src="./assets/img/dragon.png" alt="" width="100%" />
+    </div>
+  </div>
+  <div class="texto-banner">
+    <h2>TENDENCIAS</h2>
+  </div>
+  <div class="container tendencias">
+    <div class="row">
+      <div class="col-12 col-sm-6 col-md-4 col-lg-4 col-xl-4 mi_producto">
+       
+        <img src="./assets/img/tendencia1.png" alt="" width="100%" />
+         <a href="./detalle_compra.html" target="_blank">
+          <div class="btn btn-primary w-100 mt-1">Comprar!!!</div>
+        </a>
+      </div>
+      <div class="col-12 col-sm-6 col-md-4 col-lg-4 col-xl-4 mi_producto">
+                <img src="./assets/img/tendencia2.png" alt="" width="100%" />
+         <a href="./detalle_compra.html" target="_blank">
+          <div class="btn btn-primary w-100 mt-1">Comprar!!!</div>
+        </a>
+      </div>
+      <div class="ccol-12 col-sm-6 col-md-4 col-lg-4 col-xl-4 mi_producto">
+                       <img src="./assets/img/tendencia3.png" alt="" width="100%" />
+         <a href="./detalle_compra.html" target="_blank">
+          <div class="btn btn-primary w-100 mt-1">Comprar!!!</div>
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Pie de pagina -->
+  <footer>
+    <div class="container">
+      <div class="row">
+        <div class="col-12 col-md-4 col-lg-4">
+          <h3>Acerca de nosotros</h3>
+          <p>
+            En 3D Print, no solo imprimimos figuras en 3D. <br />
+            Materializamos pasiones.
+          </p>
+        </div>
+        <div class="col-12 col-md-4 col-lg-4">
+          <h3>Redes Sociales</h3>
+          <ul>
+            <li class="instagram">
+              <span class="icon"><i class="fab fa-instagram"></i></span>
+              <p>
+                <a href="https://www.instagram.com/" target="_blank">Printer3D_Inst</a>
+              </p>
+            </li>
+            <li class="facebook">
+              <span class="icon"><i class="fab fa-facebook-square"></i></span>
+              <p>
+                <a href="https://www.facebook.com/" target="_blank">Printer3D_Fb</a>
+              </p>
+            </li>
+          </ul>
+        </div>
+        <div class="col-12 col-md-4 col-lg-4">
+          <div class="single-widget widget-contact">
+            <h3 class="widget-title">Contactenos</h3>
+            <ul>
+              <li class="address">
+                <span class="icon"><i class="fas fa-map-marker-alt"></i></span>
+                <a href="./ubicacion.html">
+                  <p>Bogota</p>
+                </a>
+              </li>
+              <li class="phone">
+                <span class="icon"><i class="fab fa-whatsapp"></i></span>
+                <p>
+                  <a href="https://wa.me/51987654321?text=Hola%2C%20quiero%20más%20información"
+                    target="_blank">Contáctanos WAPP</a>
+                </p>
+              </li>
+              <li class="email w-100">
+                <span class="icon"><i class="fas fa-envelope"></i></span>
+                <p>printer3d_@mail.com</p>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+</body>
+
+</html>
